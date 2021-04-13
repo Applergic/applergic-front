@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: "Montserrat";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@import "../src/styles/imports/generic.imports";
+@import "../src/styles/imports/settings.imports";
+@import "../src/styles/imports/elements.imports";

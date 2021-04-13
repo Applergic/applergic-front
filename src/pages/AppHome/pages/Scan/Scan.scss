@@ -1,0 +1,27 @@
+.button {
+  background-color: silver;
+  border: 0;
+  border-color: silver;
+  border-radius: 100%;
+  width: 56pt;
+  height: 56pt;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &__barCode {
+    background-image: url("../../../../assets/img/Scan/barcode2.png");
+  }
+  &__qr {
+    background-image: url("../../../../assets/img/Scan/qr.png");
+  }
+
+  &__active {
+    background-color: aquamarine;
+    border-color: aquamarine;
+  }
+}
+.text {
+  font-size: 14px;
+  color: black;
+}

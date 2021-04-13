@@ -1,0 +1,63 @@
+@import '../ConfigAllergy/AllergyGallery/allergyGallery.scss';
+@import '../ConfigAllergy/AllergyButton/allergyButton.scss';
+
+.configAllergy {
+    overflow-x: hidden;
+
+    &__step {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+
+        & a {
+            color: rgb(38, 199, 220);
+            text-decoration: none;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+    }
+
+    &__text {
+        margin: 25px auto;
+
+        & h2 {
+            padding-bottom: 25px;
+        }
+
+        & p {
+            padding-bottom: 25px;
+        }
+    }
+
+    &__options {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border: solid 1px #a8a8a8;
+    }
+
+    &__selector {
+        padding: 15px;
+    }
+
+    &__allergies {
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    &__allergyBlock {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__allergyLetter {
+        margin: 10px 0;
+    }
+
+}

@@ -1,0 +1,91 @@
+.navbar {
+  background-color: white;
+  height: 10px;
+  justify-content: flex-start;
+  align-items: left;
+  z-index: 100;
+  width: 100%;
+}
+
+.menu-bars {
+  color: rgb(38, 199, 220);
+  margin: 0 30px;
+  font-size: 1em;
+  height: 60px;
+  line-height: 50px;
+  display: inline-block;
+  background: none;
+}
+.dude {
+  font-size: 1.2em;
+  height: 24px;
+  justify-content: flex-start;
+  margin: 0 0px;
+}
+.nav-menu {
+  background-color: white;
+  width: 200px;
+  height: 90vh;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 950ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: justify;
+  list-style: none;
+  height: 65px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: black;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.nav-text a:hover {
+  background-color: lightblue;
+}
+
+/* .nav-menu-items {
+  width: 100%;
+} */
+
+.navbar-toggle {
+  width: 100%;
+  height: 16px;
+  display: none;
+  justify-content: start;
+  align-items: center;
+}
+
+span {
+  margin-left: 12px;
+}
+
+@media (max-width: 500px) {
+  .dude {
+    display: block;
+
+    position: absolute;
+    right: 2rem;
+  }
+}

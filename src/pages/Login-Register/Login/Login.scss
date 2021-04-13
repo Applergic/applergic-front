@@ -1,0 +1,104 @@
+.login {
+    height: 100vh;
+
+    &__hero {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    &__logo {
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+    }
+
+    &__text {
+        padding-left: 17px;
+        text-align: left;
+        margin: 0;
+
+        & h2 {
+            font-weight: bold;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        &__input {
+            width: 90%;
+            margin: 15px;
+            padding: 0;
+            text-align: left;
+            padding-bottom: 0;
+
+            &--forget {
+                padding-top: 15px;
+                text-decoration: none;
+                color: rgb(38, 199, 220);
+            }
+
+            &--button {
+                padding-top: 10px;
+                font-size: 16px;
+                height: 40px;
+                width: 90%;
+                font-family: 'Montserrat';
+                font-weight: bold;
+                color: white;
+                background-color: rgb(38, 199, 220);
+                border-radius: 10px;
+                border: none;
+            }
+
+            & input {
+                border: 0;
+                width: 100%;
+                padding: 0.5rem;
+                border-bottom: solid grey 2px;
+                font-family: 'Montserrat';
+
+            }
+
+        }
+    }
+
+    &__error {
+        font-size: 16px;
+        color: red;
+    }
+
+
+    &__footer {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+
+        &--register {
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: rgb(38, 199, 220);
+            margin-top: 0.3rem;
+        }
+
+        &--later {
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(38, 199, 220);
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+
+        }
+    }
+}
+
+form {
+    width: 100%;
+}

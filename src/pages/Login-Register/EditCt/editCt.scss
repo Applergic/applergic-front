@@ -1,0 +1,70 @@
+.contact {
+    height: 100vh;
+    overflow: hidden;
+
+    &__step {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+
+        & a {
+            color: rgb(38, 199, 220);
+            text-decoration: none;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+
+    }
+
+    &__title {
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 0;
+
+        & p {
+            text-align: justify;
+            margin: 25px auto;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem, auto;
+        width: 100%;
+    }
+
+    &__input {
+        width: 90%;
+        margin: 0.5rem;
+        text-align: left;
+
+        & input {
+            border: 0;
+            width: 100%;
+            padding: 0.5rem;
+            border-bottom: solid grey 2px;
+            font-family: 'Montserrat';
+        }
+    }
+
+    &__error {
+        font-size: 16px;
+        color: red;
+    }
+
+    &__footer {
+
+        margin: 0.5rem auto;
+
+        & a {
+            color: rgb(38, 199, 220);
+            text-decoration: none;
+        }
+    }
+}
